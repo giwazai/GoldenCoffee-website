@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.MainText {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: dancing script;
+    font-size: 70px;
+    padding: 0px 80px;
+}
+
+.SecondText {
+    color: white;
+    font-family: dancing script;
+    font-size: 45px;
+    padding: 0px 150px;
+}
+
+.MenuButton {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto Mono;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 10px 0px;
+    font-size: 30px;
+    margin-left: 1150px;
+    margin-top: 300px;
+    display: inline-block;
+}
+
+header {
+    background-image: url('/img/MainPhoto.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 731px;
+}
+
+.about {
+    height: 731px;
+}
+
+
+
+.AboutText {
+    color: rgb(0, 0, 0);
+    font-family: Roboto mono;
+    position: absolute;
+    top: 140%;
+    left: 60%;
+    font-size: 20px;
+    transform: translate(-50%, -40%);
+    text-align: center
+}
+
+.AboutPhoto {
+    padding: 0px 160px;
+    margin-top: 70px;
+    width: 400px;
+
+}
+
+.menu {
+    height: 1000px;
+    background-color: rgb(84, 38, 4);
+    text-align: center;
+}
+
+.CoffeeText {
+    color: white;
+    font-family: roboto mono;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+
+.Contacts {
+    height: 731px;
+    background-color: white;
+    text-align: center;
+}
+
+.Name {
+    font-family: roboto mono;
+    font-weight: bold;
+}
+
+.Email {
+    font-family: roboto mono;
+    font-weight: bold;
+}
+
+.EmailI {
+    font-family: roboto mono;
+    font-size: 30px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+}
+
+.NameI {
+    font-family: roboto mono;
+    font-size: 30px;
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid black;
+}
+
+textarea {
+    width: 30%;
+    height: 150px;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 30px;
+    font-family: roboto mono;
+    resize: vertical;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 20px;
+}
+
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit {
+    text-decoration: none;
+    font-family: roboto mono;
+    border: 3px solid black;
+    color: black;
+    font-size: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+h2 {
+    font-family: roboto mono;
+    font-weight: bold;
+    font-size: 50px;
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+.MenuTittle {
+    margin-top: 50px;
+    font-family: roboto mono;
+    font-size: 35px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(253, 252, 252);
+    padding: 0px 10px;
+    display: inline-block;
+    color: white;
+}
+
+.Coffee {
+    font-family: roboto mono;
+    font-weight: bold;
+    font-size: 30px;
+    border-top: 2px solid rgb(255, 251, 251);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    display: inline-block;
+    color: white;
+}
+
+.Desserts {
+    font-family: roboto mono;
+    font-weight: bold;
+    font-size: 30px;
+    border-top: 2px solid rgb(255, 251, 251);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    display: inline-block;
+    color: white;
+}
+
+.DessertsText {
+    color: white;
+    font-family: roboto mono;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.Drinks {
+    font-family: roboto mono;
+    font-weight: bold;
+    font-size: 30px;
+    border-top: 2px solid rgb(255, 251, 251);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    display: inline-block;
+    color: white;
+}
+
+.DrinksText {
+    color: white;
+    font-family: roboto mono;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+
+i {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.Hours {
+    font-family: roboto mono;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#Photo {
+    height: 731px;
+    text-align: center;
+    margin-top: 130px;
+    background-color: rgb(84, 38, 4);
+}
+
+.PhotoTittle {
+    font-family: roboto mono;
+    font-weight: bold;
+    font-size: 40px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0px 10px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+
+.Photo1 {
+    height: 370px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.Photo2 {
+    height: 370px;
+    width: 400px;
+}
+
+.Photo3 {
+    height: 370px;
+    width: 400px;
+}
+
+.Footer {
+    background-color: white;
+    height: 200px;
+    color: #000000;
+    text-align: center;
+}
+
+.FooterLogo {   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: dancing script;
+    font-size: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.AllRightsReserved{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: roboto mono;
+}
+
+.MainText, .SecondText {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.MenuButton {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
